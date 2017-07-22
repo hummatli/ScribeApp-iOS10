@@ -12,6 +12,8 @@
 		754F28481F230A71000C25F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754F28461F230A71000C25F6 /* Main.storyboard */; };
 		754F284A1F230A71000C25F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754F28491F230A71000C25F6 /* Assets.xcassets */; };
 		754F284D1F230A71000C25F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754F284B1F230A71000C25F6 /* LaunchScreen.storyboard */; };
+		754F28581F230E6E000C25F6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F28571F230E6E000C25F6 /* CircleButton.swift */; };
+		754F285A1F231629000C25F6 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 754F28591F231629000C25F6 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		754F28491F230A71000C25F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		754F284C1F230A71000C25F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		754F284E1F230A71000C25F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754F28571F230E6E000C25F6 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		754F28591F231629000C25F6 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		754F28411F230A71000C25F6 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				754F285B1F23164E000C25F6 /* Resources */,
+				754F28551F230E18000C25F6 /* Model */,
+				754F28561F230E1F000C25F6 /* View */,
+				754F28541F230E11000C25F6 /* Controller */,
 				754F28421F230A71000C25F6 /* AppDelegate.swift */,
-				754F28441F230A71000C25F6 /* ViewController.swift */,
 				754F28461F230A71000C25F6 /* Main.storyboard */,
 				754F28491F230A71000C25F6 /* Assets.xcassets */,
 				754F284B1F230A71000C25F6 /* LaunchScreen.storyboard */,
 				754F284E1F230A71000C25F6 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		754F28541F230E11000C25F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				754F28441F230A71000C25F6 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		754F28551F230E18000C25F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		754F28561F230E1F000C25F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754F28571F230E6E000C25F6 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		754F285B1F23164E000C25F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				754F28591F231629000C25F6 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754F285A1F231629000C25F6 /* test.m4a in Resources */,
 				754F284D1F230A71000C25F6 /* LaunchScreen.storyboard in Resources */,
 				754F284A1F230A71000C25F6 /* Assets.xcassets in Resources */,
 				754F28481F230A71000C25F6 /* Main.storyboard in Resources */,
@@ -137,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754F28581F230E6E000C25F6 /* CircleButton.swift in Sources */,
 				754F28451F230A71000C25F6 /* ViewController.swift in Sources */,
 				754F28431F230A71000C25F6 /* AppDelegate.swift in Sources */,
 			);
